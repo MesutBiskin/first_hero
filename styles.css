@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;/* Sayfanin yapisini belirliyoruz ust satir basina koydugumuz yildiz tum sayfayi ele alir*/
+    margin: auto;  /* Basligi ortalamak icin*/
+}
+        /*   Css file comment line */
+body{
+    background-color: rgb(180, 132, 159);
+
+   
+}
+    /* backround resmini degistiriyoruz ve sayfanin yapisina gore ayarliyoruz*/
+header{
+    background-color: rgb(161, 124, 179);
+    height: 100vh;
+    width: 100vw;
+    background-image: url(./image/image2.jpg);
+    background-size: cover ;
+    background-repeat: no-repeat;
+    color: beige;
+    background-blend-mode:hard-light;
+    
+}
+.container{     /*  eger class ismi vermissek Html file da css file da nokta + html class file ismi yazilir*/
+    display: flex;
+    flex-direction: row-reverse;
+    border: 5px solid pink; /*class verdigimiz alana border cizer */
+}
